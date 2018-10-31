@@ -138,7 +138,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xbd44f5fd4a3598f3f4e56c3688b279ca63170cedd5386741607d6cfbe9f8fe13"));
         assert(genesis.hashMerkleRoot == uint256S("0x38f40d090640e76cc1b0b9e39eee22768ab2d5c17e6ed288f8267f5df36934d3"));
 	vSeeds.clear();
-//        vSeeds.emplace_back("192.168.1.15", true); 
+        vSeeds.emplace_back("seed.linkright.org", true); 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,61);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -225,7 +225,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("seed.linkright.org", false);
+        //vSeeds.emplace_back("test.linkright.org", false);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,128);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);

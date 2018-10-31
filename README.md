@@ -8,13 +8,13 @@ What is LinkRight?
 
 LinkRight is a fork of Bitcoin that is designed to resist the monopolisation of
 mining power.
- - 2.5 minute block targets
- - subsidy halves in 2100k blocks (~4 years)
- - ~84 million total coins
- - 50 coins per block (25 after block 2,100,000)
+ - 2 minute block targets
+ - subsidy halves in 1050k blocks (~4 years)
+ - ~105 million total coins
+ - 50 coins per block (25 after block 1,500,000)
  - Difficulty retargeting every block to recover from large hashrate swings
  - Lyra2REv2 proof of work algorithm for ASIC resistance
-
+ - OP_RETURN maximum size is 2830 bytes
 For more information, as well as an immediately useable, binary version of
 the LinkRight client sofware, see http://www.linkright.org.
 
