@@ -26,11 +26,11 @@ information or see https://opensource.org/licenses/MIT.
 
 Mining
 ------
-The mining function is added back to the LinkRight core. People do not need to rrely on mining pool for mining.This aims to prevent the concentration of mining power in mining pools. Please be noted that LinkRight uses Lyra2v2 which is ASIC free algorithm. 
+The mining function is added back to the LinkRight core. People do not need to rely on mining pool for mining.This aims to prevent the concentration of mining power in mining pools. Please be noted that LinkRight uses Lyra2v2 which is ASIC free algorithm. 
 
 The mining command is:
 
-./linkright-cli setgenerate true "public key for receiving coin"
+./linkright-cli setgenerate true "public key for receiving tokens"
 
 
 Development Process
